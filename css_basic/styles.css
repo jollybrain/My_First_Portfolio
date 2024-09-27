@@ -6,15 +6,18 @@ body{
 
 }
 main{
+    flex-direction: row;
     flex: auto;
     margin: 10px;
     padding: 5px;
     height: 200vh;
-    border: 1px solid #000000;
+    border:none;
     border-radius: 5px;
 }
-section{
+Section{
+    flex-direction: row;
     flex: auto;
+    position: relative;
     margin: 10px;
     padding: 5px;
     height: 200vh;
@@ -36,6 +39,15 @@ header{
     text-align: center;
     justify-items: auto;
     z-index: 1000;
+}
+article{
+    overflow-y: auto;
+    flex: 2;
+    flex-direction: row;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 h1{
     font-size: 20px;
